@@ -19,3 +19,8 @@ au User asyncomplete_setup call asyncomplete#register_source({
     \ 'completor': function('asyncomplete#sources#gitcommit#completor')
     \ })
 ```
+
+## TODO
+
+- [ ] Support close github issues and PR;
+- [ ] Read commit logs
